@@ -8,7 +8,7 @@ Usage:
 
 2. Run *docker compose up*
 
-3. Sox will create a number of mp3 files in the current directory.
+3. Sox will create a number of mp3 files in the current directory. Files named output-x.mp3 or output+x.mp3 where x is the number of hundredths of a semitone up or down from the input.mp3. 
 
 4. Make sure your instrument is in tune. Try playing against some of the mp3 files until you find one that sounds right.
 
