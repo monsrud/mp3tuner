@@ -10,7 +10,9 @@ Usage:
 
 3. Sox will create a number of mp3 files in the current directory. Files named output-x.mp3 or output+x.mp3 where x is the number of hundredths of a semitone up or down from the input.mp3. 
 
-4. Make sure your instrument is in tune. Try playing against some of the mp3 files until you find one that sounds right.
+4. ***Make sure your instrument is in tune.***
+
+5.  Try playing against some of the mp3 files until you find one that sounds right.
 
 You can make changes to the shell script alter-pitch.sh. Change the range of each loop to begin or end where you choose. Typically,
 most mp3 that are out of tune are fairly close, within a quarter or half a semitone. If you make changes to the alter-pitch.sh, run *docker-compose* build afterward.
