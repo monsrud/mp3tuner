@@ -1,6 +1,6 @@
 # mp3tuner
 
-Uses sox in a docker container to help correct out of tune mp3 files to use for music practice. I used to do this with Audacity but got tired of manually adjusting files to get them in proper pitch. Instead, I take a shotgun approach and create a wide range of files with very small differences in pitch --- one 100th of a semitone --- and then just choose the one that sounds closest by ear.
+If you've ever used random mp3 files for music practice, you've probably noticed that they are often not in tune. This project uses sox in a docker container to help correct out of tune mp3 files to use for music practice. I used to do this with Audacity but got tired of manually adjusting files to get them in proper pitch. Instead, I take a shotgun approach and create a wide range of files with very small differences in pitch --- one 100th of a semitone --- and then just choose the one that sounds closest by ear.  
 
 Usage:
 
